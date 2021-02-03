@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div id="calculator">
-        <div id="screen">0</div>
+        <div id="screen">
+            <div id="history"></div>
+            <div id="input">0</div>
+        </div>
         <div class="number" id="number1">1</div>
         <div class="number" id="number2">2</div>
         <div class="number" id="number3">3</div>
@@ -20,6 +25,7 @@
         <div class="number" id="number9">9</div>
         <div class="number" id="number0">0</div>
         <div class="number" id="decimal">.</div>
+        <div class="operator" id="delete">DEL</div>
         <div class="operator" id="substract">-</div>
         <div class="operator" id="add">+</div>
         <div class="operator" id="multiplication">&#x00D7;</div>
